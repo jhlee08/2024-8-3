@@ -41,3 +41,13 @@ print(h)
 print(len(a))
 print(len(b))
 print(len(b[0]))
+
+
+print("=================")
+
+text = "commit failed with error"
+print(text[5])
+print(text[10:])
+
+text = text.replace( _old "m",  _new "s", count[1])
+print(text)
