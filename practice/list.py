@@ -49,5 +49,5 @@ text = "commit failed with error"
 print(text[5])
 print(text[10:])
 
-text = text.replace( _old "m",  _new "s", count[1])
+text = text.replace("m",  "s", 1)
 print(text)
