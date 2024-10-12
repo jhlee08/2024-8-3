@@ -49,4 +49,6 @@ elif int(size % 2) == 1 :
     print("홀수입니다")
 """
 
+n1 = int(input("문장을 입력하세요"))
+print(n1)
 
