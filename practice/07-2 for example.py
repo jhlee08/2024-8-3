@@ -32,15 +32,13 @@ for i in range(1,101):
 # 해당 숫자의 구구단을 출력
 # 2를 입력받으면
 # 2*1=2 - 2*9+18
-
+"""
 nu = int(input("숫자를 하나 입력해주세요 ::"))
 for i in range(10):
     for j in range(1):
         print(nu * i)
-
-
-
 """
+
 # 문제 2
 # 10 개의 랜덤 알파벳을 배열로 생성
 # [Q,W,A,F,S,C,G,D,E,T]
@@ -54,4 +52,8 @@ alphabet = []
 
 for i in range(0,10):
     alphabet.append(chr(random.randrange(65,91)))
-"""
+
+for alpha in alphabet:
+    print(alpha)
+    while user_input != alpha:
+        user_input = input("")
