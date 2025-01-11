@@ -15,8 +15,6 @@ print("#################################")
 """
 # 커피(음료)를 자동으로 만들어주는 기계를 만든다고 가정
 
-
-
 def put_esspresso():
     print("espresso")
 
@@ -83,3 +81,5 @@ if user_input == "아이스 코코아":
     add_ice()
     add_milk()
     add_cocoa()
+
+# 위에 내용을 가지고 dictionary 개념을 추가(가격 추가) 다음시간
